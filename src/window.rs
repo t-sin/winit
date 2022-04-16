@@ -138,7 +138,7 @@ pub struct WindowAttributes {
     /// There may be a small gap between this position and the window due to the specifics of the
     /// Window Manager.
     /// - **X11**: The top left corner of the window, the window's "outer" position. If the window
-    /// specified its *parent* by [`crate::platform::unix::WindowBuilderExtUnix::with_x11_parent`], this position means the top left corner of the parent's inner coordinate system.
+    /// specified its *parent*, this position means the top left corner of the parent's inner coordinate system.
     /// - **Others**: Ignored.
     ///
     /// See [`Window::set_outer_position`].
